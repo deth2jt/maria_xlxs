@@ -17,4 +17,5 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 #ENV NAME World
 
 # Run app.py when the container launches
-CMD ["python", "readXls13.py"]
+#CMD ["python", "readXls13.py"]
+ENTRYPOINT ["python", "readXls13.py"]
